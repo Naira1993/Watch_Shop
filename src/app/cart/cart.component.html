@@ -1,0 +1,32 @@
+<div class="row">
+  <div class="col s6 offset-s3">
+    <h2>My cart</h2>
+    <div  *ngIf="carts.length; else empty">
+        <table >
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Model</th>
+                <th>Count</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let cart of carts, let index = index" >
+                <td>{{cart?.title}}</td>
+                <td>{{cart?.model}}</td>
+                <td>{{cart?.count}}</td>
+                <td>{{cart?.price}} $</td>
+                <td class='clear'><span class='material-icons red' (click)="delete(cart.id, index)">clear</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <span>Price: {{priceAll}} $</span>
+          <button class="btn btn-primary" type="submit" (click)='order()'>Order</button>
+    </div>
+    <ng-template #empty>
+       <h4>The cart is empty</h4>
+    </ng-template>
+  </div>
+</div>

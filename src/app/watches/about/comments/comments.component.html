@@ -1,0 +1,15 @@
+<div class="item">
+    <span class="title"></span>
+    <h5><i>{{comment?.email}}: </i><br>
+       {{comment?.text}}
+    </h5>
+    <p style="padding: 10px;">
+            <span class="material-icons right" (click)="disLike(true)" *ngIf="!dLike">thumb_down</span>
+            <span class="material-icons right like" (click)="comLike(false)" *ngIf="dLike">thumb_down </span>
+            <span class="right" *ngIf="dcount > 0">{{dcount}}</span>
+            <span class="material-icons right" (click)="comLike(true)" *ngIf="!cLike">thumb_up </span>
+            <span class="material-icons right like" (click)="comLike(false)" *ngIf="cLike">thumb_up </span>
+            <span class="right" *ngIf="count > 0">{{count}}</span>
+    </p>
+</div>
+

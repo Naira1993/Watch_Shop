@@ -1,0 +1,57 @@
+<ul class="tabs">
+    <li class="tab col s3 offset-s3"><a [class]="active" href="#login">Login</a></li>
+    <li class="tab col s3"><a [class]="!active"  href="#register">Registration</a></li>
+</ul>
+
+<div id="login" class="col s6  offset-s3" >
+    <h2>Enter the store</h2>
+    <form [formGroup]="form1" (ngSubmit)="onSubmit()" >
+        <div class="input-field">
+            <input id="email" name="email" type="text" formControlName="email">
+            <label for="email">Email</label>
+            <span class="helper-text" *ngIf="form1.get('email').invalid && form1.get('email').touched">Enter email</span>
+        </div>
+
+        <div class="input-field">
+            <input id="password" name="password" type="password" formControlName="password">
+            <label for="password">Password</label>
+            <span class="helper-text" *ngIf="form1.get('password').invalid && form1.get('password').touched">Enter
+                password</span>
+        </div>
+        <!-- <p><a href="/auth/reset">Забыли пароль?</a></p> -->
+        <button [disabled]="islogin" class="btn btn-primary" type="submit">Log In</button>
+    </form>
+    <hr>
+</div>
+
+
+
+<div id="register" class="col s6 offset-s3">
+    <h2>Registartion</h2>
+    <form [formGroup]="form2" (ngSubmit)="submit()">
+        <div class="input-field">
+            <input id="name" name="name" type="text" formControlName="name">
+            <label for="name">Name</label>
+            <span class="helper-text"
+             *ngIf="form2.get('name').invalid && form2.get('name').touched"
+             >Enter name</span>
+        </div>
+        <div class="input-field">
+            <input id="remail" name="remail" type="text" formControlName="remail">
+            <label for="remail">Email</label>
+            <span class="helper-text" 
+            *ngIf="form2.get('remail').invalid && form2.get('remail').touched"
+            >Enter email</span>
+        </div>
+
+        <div class="input-field">
+            <input id="rpassword" name="rpassword" type="password" formControlName="rpassword">
+            <label for="rpassword">Password</label>
+            <span class="helper-text" 
+             *ngIf="form2.get('rpassword').invalid && form2.get('rpassword').touched"
+             >Enter password</span>
+        </div>
+        <!-- <p><a href="/auth/reset">Забыли пароль?</a></p> -->
+        <button [disabled]="form2.invalid" class="btn btn-primary" type="submit">Save</button>
+    </form>
+</div>

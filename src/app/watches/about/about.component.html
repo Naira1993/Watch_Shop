@@ -1,0 +1,33 @@
+<div class="card" style="margin-top: 100px;">
+    <div class="card-image">
+        <img [src]="watch?.img">
+        <div class="card-content">
+            <span>{{watch?.title}}</span><br>
+            <p>{{watch?.model}}</p>
+        </div>
+    </div>
+    <div class="card-content">
+        <span>Price: {{watch?.price}} $</span>
+    </div>
+    <div class="card-action actions">
+        <button class="btn btn-primary" (click)="buy(watch)">
+            Buy
+        </button>
+        <span class="material-icons right" (click)="like(false)" *ngIf="isLike" style="color: red">favorite </span>
+        <span class="material-icons right" (click)="like(true)" *ngIf="!isLike" >favorite_border</span>
+        <span class="right" *ngIf="count > 0">{{count}}</span>
+    </div>
+</div>
+<div class="row">
+    <p>Comments:</p>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <input type="text" name="comment" id="comment" formControlName="comment">
+        <button class="btn btn-primary right" type="submit">
+            Add
+        </button>
+    </form>
+</div>
+<br>
+
+
+        <app-comments *ngFor="let comment of comments; let index = index" [comment]="comment" [index]="index"></app-comments>

@@ -1,0 +1,23 @@
+<div class="card" style="margin-top: 100px;" *ngFor="let watch of watches$ | async as watches">
+  <div class="card-image">
+    <img [src]="watch.img">
+
+    <div class="card-content">
+      <span>{{watch.title}}</span><br>
+      <p> {{watch.model}}</p>
+    </div>
+  </div>
+  <div class="card-content">
+    <span>Price: {{watch.price}} $</span>
+  </div>
+  <div class="card-action actions">
+    <a routerLink="watch/{{watch.id}}">Open watch</a>
+    <button class="btn btn-primary" (click)="update(watch.id)">
+      Update
+    </button>
+    <button class="btn btn-primary" (click)="buy(watch)">
+      Buy
+    </button>
+  </div>
+</div>
+

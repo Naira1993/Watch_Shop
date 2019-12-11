@@ -1,0 +1,17 @@
+th, td {
+    width: 200px;
+}
+
+button {
+    position: relative;
+    float: right; 
+}
+
+span {
+   font-size: 2rem;
+}
+
+.clear {
+   width: 20px;
+   cursor: pointer;
+}

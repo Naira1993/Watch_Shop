@@ -1,0 +1,13 @@
+.material-icons {
+    cursor: pointer;
+    padding: 0 1.5rem;
+}
+.like {
+    color: blue
+}
+
+.item {
+    border: .5px solid grey;
+    padding: 10px;
+    margin: 10px 0;
+}

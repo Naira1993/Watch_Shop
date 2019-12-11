@@ -1,0 +1,19 @@
+.card {
+    margin-top: 100px;
+    width: 500px;
+    height: auto
+}
+
+span {
+    margin-left: 2rem;
+    font-size: 200%;
+}
+
+.card-action.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-content {
+    text-align: center;
+}

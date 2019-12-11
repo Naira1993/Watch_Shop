@@ -1,0 +1,15 @@
+
+<div class="row">
+  <div class="input-field col s6 offset-s3 active">
+    <i class="material-icons prefix">search</i>
+    <input id="icon_prefix" type="text" value="Search" [(ngModel)]="searchStr">
+  </div>
+
+  <div class="collection col s6 offset-s3">
+    <div *ngFor="let watch of watches | search:searchStr">
+      <a  class="collection-item" routerLink="/watches/watch/{{watch.id}}" routerLinkActive="router-link-active">
+        {{watch.title}} - {{watch.model}}
+      </a>
+    </div>
+  </div>
+</div>

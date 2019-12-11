@@ -1,0 +1,320 @@
+{
+  "isAuth": [
+    {
+      "login": true,
+      "id": 1
+    }
+  ],
+  "watches": [
+    {
+      "like": [],
+      "comments": [
+        {
+          "email": "n@mail.ru",
+          "text": "Good",
+          "cLike": [
+            "n@mail.ru"
+          ],
+          "dLike": []
+        },
+        {
+          "email": "n@mail.ru",
+          "text": "Super watch!!!!",
+          "cLike": [
+            "n@mail.ru"
+          ],
+          "dLike": []
+        }
+      ],
+      "email": "k@mail.ru",
+      "title": "Swatch",
+      "model": "BBBlood Quartz Grey Dial Men's Watch",
+      "price": 200,
+      "img": "https://cdn2.jomashop.com/media/catalog/product/cache/1/small_image/259x/9df78eab33525d08d6e5fb8d27136e95/s/w/swatch-bbblood-quartz-grey-dial-mens-watch-so27m102.jpg",
+      "id": 2
+    },
+    {
+      "like": [
+        "n@mail.ru"
+      ],
+      "comments": [
+        {
+          "email": "n@mail.ru",
+          "text": "Good",
+          "cLike": [],
+          "dLike": []
+        }
+      ],
+      "email": "n@mail.ru",
+      "title": "CITIZEN",
+      "model": "JY8037-50E",
+      "price": 200,
+      "img": "https://d1rkccsb0jf1bk.cloudfront.net/products/99986640/main/large/jy8037-50e_high_res-1439896505-1302.jpg",
+      "id": 3
+    },
+    {
+      "like": [
+        "k@mail.ru"
+      ],
+      "comments": [],
+      "email": "k@mail.ru",
+      "title": "BOSS",
+      "model": "Next Hugo Boss Talent Watch 1513584",
+      "price": 400,
+      "img": "https://d1rkccsb0jf1bk.cloudfront.net/products/100021773/main/large/1513584.jpg",
+      "id": 7
+    },
+    {
+      "like": [],
+      "comments": [],
+      "email": "k@mail.ru",
+      "title": "Tissot",
+      "model": "Next Gents Tissot T-Race Cycling Tour De France 2019 Special Edition Watch T1114173705700",
+      "price": 477,
+      "img": "https://d1rkccsb0jf1bk.cloudfront.net/products/100031810/main/large/T111_417_37_057_00.jpg",
+      "id": 8
+    },
+    {
+      "like": [],
+      "comments": [],
+      "email": "k@mail.ru",
+      "title": "Tissot",
+      "model": "Tissot Visodate Watch T1184101105700",
+      "price": 267,
+      "img": "https://d1rkccsb0jf1bk.cloudfront.net/products/100027417/main/large/T118_410_11_057_00.jpg",
+      "id": 9
+    },
+    {
+      "like": [],
+      "comments": [],
+      "email": "a@mail.ru",
+      "title": "Rotary",
+      "model": "Rotary Aquaspeed Watch AGB19006/C/04",
+      "price": 159,
+      "img": "https://d1rkccsb0jf1bk.cloudfront.net/products/100035543/main/large/AGB19006_C_04.jpg",
+      "id": 10
+    },
+    {
+      "email": "n@mail.ru",
+      "like": [],
+      "comments": [],
+      "title": "Swatch",
+      "model": "Once Again Watch",
+      "price": 159,
+      "img": "https://cdn2.jomashop.com/media/catalog/product/cache/1/watermark/490x490/0a1186946c551c1cc1f1a1120b7bd9a0/s/w/swatch-once-again-watch-gb743.jpg",
+      "id": 11
+    }
+  ],
+  "users": [
+    {
+      "name": "Naira",
+      "email": "n@mail.ru",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "Yuri",
+      "email": "y@mail.ru",
+      "password": "yuri17",
+      "id": 2
+    },
+    {
+      "name": "Yuri",
+      "email": "y@mail.ru",
+      "password": "yuri17",
+      "id": 3
+    },
+    {
+      "name": "Ann",
+      "email": "a@mail.ru",
+      "password": "aaaaaa",
+      "id": 4
+    },
+    {
+      "name": "Aram",
+      "email": "k@mail.ru",
+      "password": "kkkkkk",
+      "id": 5
+    }
+  ],
+  "cart": [
+    {
+      "email": "n@mail.ru",
+      "title": "CITIZEN",
+      "model": "JY8037-50E",
+      "count": 1,
+      "price": 200,
+      "id": 11
+    },
+    {
+      "email": "n@mail.ru",
+      "title": "BOSS",
+      "model": "Next Hugo Boss Talent Watch 1513584",
+      "count": 1,
+      "price": 400,
+      "id": 12
+    },
+    {
+      "email": "y@mail.ru",
+      "title": "Swatch",
+      "model": "BBBlood Quartz Grey Dial Men's Watch",
+      "count": 1,
+      "price": 200,
+      "id": 13
+    },
+    {
+      "email": "y@mail.ru",
+      "title": "CITIZEN",
+      "model": "JY8037-50E",
+      "count": 1,
+      "price": 200,
+      "id": 14
+    }
+  ],
+  "orders": [
+    {
+      "userEmail": "y@mail.ru",
+      "carts": [
+        {
+          "email": "y@mail.ru",
+          "title": "Swatch",
+          "model": "BBBlood Quartz Grey Dial Men's Watch",
+          "count": 1,
+          "price": 200,
+          "id": 1
+        }
+      ],
+      "date": "05 декабря 2019 г., 19:09:14",
+      "price": 200,
+      "id": 1
+    },
+    {
+      "userEmail": "a@mail.ru",
+      "carts": [
+        {
+          "email": "a@mail.ru",
+          "title": "Swatch",
+          "model": "BBBlood Quartz Grey Dial Men's Watch",
+          "count": 1,
+          "price": 200,
+          "id": 1
+        },
+        {
+          "email": "a@mail.ru",
+          "title": "CITIZEN",
+          "model": "JY8037-50E",
+          "count": 1,
+          "price": 190,
+          "id": 2
+        }
+      ],
+      "date": "07 декабря 2019 г., 17:26:23",
+      "price": 390,
+      "id": 2
+    },
+    {
+      "userEmail": "n@mail.ru",
+      "carts": [
+        {
+          "email": "n@mail.ru",
+          "title": "CITIZEN",
+          "model": "JY8037-50E",
+          "price": 190,
+          "count": 1,
+          "id": 2
+        },
+        {
+          "email": "n@mail.ru",
+          "title": "BOSS",
+          "model": "Next Hugo Boss Talent Watch 1513584",
+          "count": 1,
+          "price": 400,
+          "id": 4
+        },
+        {
+          "email": "n@mail.ru",
+          "title": "Tissot",
+          "model": "Next Gents Tissot T-Race Cycling Tour De France 2019 Special Edition Watch T1114173705700",
+          "count": 1,
+          "price": 477,
+          "id": 5
+        }
+      ],
+      "date": "07 декабря 2019 г., 20:35:02",
+      "price": 868,
+      "id": 4
+    },
+    {
+      "userEmail": "n@mail.ru",
+      "carts": [
+        {
+          "email": "n@mail.ru",
+          "title": "CITIZEN",
+          "model": "JY8037-50E",
+          "count": 1,
+          "price": 210,
+          "id": 6
+        }
+      ],
+      "date": "07 декабря 2019 г., 20:58:42",
+      "price": 210,
+      "id": 5
+    },
+    {
+      "userEmail": "n@mail.ru",
+      "carts": [
+        {
+          "email": "n@mail.ru",
+          "title": "BOSS",
+          "model": "Next Hugo Boss Talent Watch 1513584",
+          "count": 1,
+          "price": 400,
+          "id": 9
+        },
+        {
+          "email": "n@mail.ru",
+          "title": "Swatch",
+          "model": "BBBlood Quartz Grey Dial Men's Watch",
+          "count": 1,
+          "price": 200,
+          "id": 10
+        },
+        {
+          "email": "n@mail.ru",
+          "title": "CITIZEN",
+          "model": "JY8037-50E",
+          "count": 1,
+          "price": 200,
+          "id": 11
+        }
+      ],
+      "date": "07 декабря 2019 г., 21:13:29",
+      "price": 800,
+      "id": 6
+    },
+    {
+      "userEmail": "y@mail.ru",
+      "carts": [
+        {
+          "email": "y@mail.ru",
+          "title": "Swatch",
+          "model": "BBBlood Quartz Grey Dial Men's Watch",
+          "count": 1,
+          "price": 200,
+          "id": 13
+        },
+        {
+          "email": "y@mail.ru",
+          "title": "CITIZEN",
+          "model": "JY8037-50E",
+          "count": 1,
+          "price": 200,
+          "id": 14
+        }
+      ],
+      "date": "07 декабря 2019 г., 21:24:41",
+      "price": 400,
+      "id": 7
+    }
+  ]
+}
